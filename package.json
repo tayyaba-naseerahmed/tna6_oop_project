@@ -1,0 +1,25 @@
+{
+  "name": "tna6_oop_project",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type":"module",
+  "types":"inquirer",
+  "bin":{ 
+    "tna6_oop_project": "index.js"
+},
+  "scripts": { 
+    "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "keywords": [],
+  "author": "Tayyaba Naseer Ahmed",
+  "license": "MIT",
+  "description": "A cli based oop project",
+  "devDependencies": {
+    "@types/node": "^20.14.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.23",
+    "chalk": "^4.1.2",
+    "ts-node": "^10.7.0"
+  }
+}
